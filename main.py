@@ -47,14 +47,12 @@ phone_number = input(f"We need to know how to contact you, {first_name}. What is
 print(f"I'll give you a call later {first_name}.")
 print(" ")
 print("ONE LAST question, what is your email address?")
-email_address = input("Email address: ")
+email_address = input("Email address:")
 print("Thanks!")
 
 # Display the information back to the user
 print(f"\nYou entered the following information:") #You put a '\n' into a string to quickly and easily create a newline. This happens automatically after a print-statement, as you probably know.
-print(f"{first_name}")
-print(f"{middle_inital}")
-print(f"{last_name}")
+print(f"{first_name} {middle_inital} {last_name}")
 print(f"{street_address}")
 print(f"{city}")
 print(f"{state}")
